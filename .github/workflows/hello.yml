@@ -1,0 +1,14 @@
+name: sey hello
+
+on:
+  push: 
+    branches:
+      - master
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the menssahe
+        run: |
+          echo "hola Javi"

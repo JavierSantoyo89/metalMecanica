@@ -12,3 +12,6 @@ jobs:
       - name: Echo the menssahe
         run: |
           echo "hola Javi"
+      - name: Dime la fecha
+        run: date
+      - run: ls -l

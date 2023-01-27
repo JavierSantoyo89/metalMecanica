@@ -16,5 +16,5 @@ jobs:
         with:
           node-version: latest
       - name: Install dependencies
-        run: npm Install
+        run: npm install
 

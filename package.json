@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "cypress:open": "start & cypress open",
+    "cypress:open": "cypress open",
+    "cypress:serverOk": "cypress run --browser chrome --e2e cypress/e2e/startWeb.cy.js",
     "start": "nodemon"
   },
   "author": "Javier Santoyo",

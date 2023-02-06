@@ -14,7 +14,7 @@ Status:
 ## Example output
 
 ```bash
-$ git-log-to-markdown --author="Ludvig Lundgren"
+$ git-log-to-markdown --author= ${AUTHOR}
 
 # Gitlog
 

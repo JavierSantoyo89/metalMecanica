@@ -10,3 +10,18 @@ Status:
 ### NextJs (tentativo)
 ### flutter (Tentativo)
 
+
+## Example output
+
+```bash
+$ git-log-to-markdown --author="Ludvig Lundgren"
+
+# Gitlog
+
+## 2019-05-11
+ * add README
+ * add gitignore
+
+## 2019-05-12
+ * add feature
+```

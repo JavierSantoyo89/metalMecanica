@@ -24,17 +24,13 @@ git-log-to-markdown () {
   case $i in
     -a=*|--author=*)
     local AUTHOR="${i#*=}"
-    shift
-    ;;
+    shift;;
     -s=*|--since=*)
     SINCE="${i#*=}"
-    shift
-    ;;
+    shift;;
     -u=*|--until=*)
     UNTIL="${i#*=}"
-    shift
-    ;;
-    *)
+    shift;;*)
       # unknown option
     ;;
   esac
@@ -59,9 +55,7 @@ git-log-to-markdown () {
       echo -e "## $DATE"
       echo -e "${GIT_PAGER}"
     fi
-
   done
-
 }
 
-git-log-to-markdown "$@" > ./gitlog.md
+git-log-to-markdown "$@" > ./README.md

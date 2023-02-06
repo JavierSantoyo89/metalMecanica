@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - uses: actions-js/profile-readme@master
-      - with:
+        with:
           username: <your username>
           github_token: ${{ secrets.SECRET_TOKEN }}
       - name: Commit & Push changes

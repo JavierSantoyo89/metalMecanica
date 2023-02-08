@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: JavierSantoyo89/metalMecanica
         env:
-          GITHUB_TOKEN: ${{ secrets.GIT_ACCIONS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GIT_ACTIONS_TOKEN }}

@@ -12,6 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: metalMecanica/github-activity-readme@master
+      - uses: JavierSantoyo89/metalMecanica
         env:
           GITHUB_TOKEN: ${{ secrets.GIT_ACCIONS_TOKEN }}

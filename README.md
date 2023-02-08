@@ -11,18 +11,3 @@ Status:
 ### flutter (Tentativo)
 
 <!--START_SECTION:activity-->
-
-## Example output
-
-```bash
-$ git-log-to-markdown --author= ${AUTHOR}
-
-# Gitlog
-
-## 2019-05-11
- * add README
- * add gitignore
-
-## 2019-05-12
- * add feature
-```

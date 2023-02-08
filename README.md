@@ -10,6 +10,7 @@ Status:
 ### NextJs (tentativo)
 ### flutter (Tentativo)
 
+<!--START_SECTION:activity-->
 
 ## Example output
 
